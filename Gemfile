@@ -56,7 +56,6 @@ gem 'attachinary', github: 'assembler/attachinary'
 gem 'cloudinary'
 gem 'bootstrap-datepicker-rails'
 gem "geocoder"
-gem "coffee-rails"
 gem "gmaps4rails"
 gem "chartkick"
 gem "devise-i18n"
