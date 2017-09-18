@@ -42,6 +42,26 @@ gem 'passenger', ">= 5.1.8", require: "phusion_passenger/rack_handler"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'devise'
+gem 'figaro'
+gem 'searchkick', '~> 1.3'
+gem 'twitter-typeahead-rails'
+gem 'autoprefixer-rails'
+gem 'bootstrap-sass'
+gem 'font-awesome-sass'
+gem 'jquery-rails'
+gem 'jquery-fileupload-rails'
+gem 'sass-rails'
+gem 'simple_form'
+gem 'attachinary', github: 'assembler/attachinary'
+gem 'cloudinary'
+gem 'bootstrap-datepicker-rails'
+gem "geocoder"
+gem "coffee-rails"
+gem "gmaps4rails"
+gem "chartkick"
+gem "devise-i18n"
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
