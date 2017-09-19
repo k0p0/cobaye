@@ -59,6 +59,7 @@ gem "geocoder"
 gem "gmaps4rails"
 gem "chartkick"
 gem "devise-i18n"
+gem 'wicked_pdf'
 
 
 group :development, :test do
