@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: cobaye_development
+  database: cobaye
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: cobaye_production
+  database: cobaye
   username: cobaye
   password: <%= ENV['COBAYE_DATABASE_PASSWORD'] %>
